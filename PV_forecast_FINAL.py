@@ -99,7 +99,7 @@ client.username_pw_set(ACCESS_TOKEN)
 client.connect(THINGSBOARD_HOST, 1883, 60)
 client.loop_start()
 # Declare data format
-sensor_data = {"ts":0, "values":{"pv_forecast4":0}}
+sensor_data = {"ts":0, "values":{"pv_forecast":0}}
 
 # THE TIMESTAMP ARE 1 HOUR EARLIER BECAUSE IN UTC FORMAT
 dt_start_TIMESTAMP = tempo.mktime(dt_start.timetuple())
@@ -123,7 +123,7 @@ try:
         
         # Insert the data in a suitable format
         sensor_data['ts'] = pv_timestamp
-        sensor_data['values']['pv_forecast4'] = pv_value
+        sensor_data['values']['pv_forecast'] = pv_value
         
         # Send data to ThingsBoard via MQTT
         client.publish('v1/devices/me/telemetry', json.dumps(sensor_data), 1)
