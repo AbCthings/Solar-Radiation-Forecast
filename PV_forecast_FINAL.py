@@ -1,6 +1,5 @@
 # ***************************************************************
-# This Python script performs the forecast of the solar radiation (W/m^2) for the next day with respect to the moment of execution.
-# (for instance, if I call it the 1st of the month, it will report the forecast from the 2nd to the 8th included)
+# This Python script performs the forecast of the solar radiation (W/m^2) for a given time period.
 # The solar radiation forecast is then sent to an MQTT broker, with an associated timestamp. The time step of the previsions is 60 seconds.
 # ***************************************************************
 
