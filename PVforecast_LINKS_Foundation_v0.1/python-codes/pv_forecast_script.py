@@ -1,3 +1,29 @@
+'''
+*** Solar radiation prediction and MQTT publishing ***
+Authors: 
+    Hamidreza Mirtaheri, 
+    Alessandro Bortoletto 
+    
+Latest version: 
+    01/06/2019
+    
+Version: 
+    0.1
+    
+Abstract:
+    This Python script performs the prediction of the solar radiation (W/m^2), from the 00:00 of the day during which the script is executed.
+    The solar radiation forecast is then sent to an MQTT broker, with an associated timestamp, ONLY for the samples with a future timestamp with respect to the current instant.
+    The following parameters can be passed via command line (pass '0' to use the default value):
+        1) LATITUDE
+        2) LONGITUDE
+        3) STEP
+        4) FORECAST_HORIZON
+        5) THINGSBOARD_HOST
+        6) BROKER_PORT
+        7) ACCESS_TOKEN
+        
+'''
+
 import paho.mqtt.client as mqtt
 import os
 import sys
