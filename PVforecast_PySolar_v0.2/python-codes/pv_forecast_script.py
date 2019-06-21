@@ -10,7 +10,7 @@ Latest version:
     29/04/2019
     
 Version: 
-    1.1
+    0.2
     
 Abstract:
     This Python script performs the prediction of the solar radiation (W/m^2), from the 00:00 of the day during which the script is executed.
