@@ -1,4 +1,4 @@
-''
+'''
 
 *** Solar radiation prediction and MQTT publishing ***
 
