@@ -1,4 +1,4 @@
-This repository contains python scripts to perform a georeferenced forecast of the solar radiation for the next days.
+This repository contains python scripts to perform a georeferenced forecast of the solar radiation for a temporal horizon of 1 to 7 days.
 
 # Solar Radiation Forecast
 These Python scripts perform the forecast of the solar radiation (W/m^2) for a given time period.
