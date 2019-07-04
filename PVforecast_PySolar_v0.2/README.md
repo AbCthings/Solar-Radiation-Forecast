@@ -1,4 +1,4 @@
-# This version is deprecated: use "LINKS-Foundation" version instead
+# This version is deprecated: use "LINKS_Foundation" version instead
 
 This is the latest available version of the PySolar PV forecast script.
 
