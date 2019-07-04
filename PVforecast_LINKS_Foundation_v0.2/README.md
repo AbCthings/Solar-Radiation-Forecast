@@ -1,8 +1,8 @@
 # Get started
 
-Modify pvforecast.config to fit your application.
+Modify *pvforecast.config* to fit your application.
 
-Launche the daemon "./c-codes/pvforecastd". This has been compiled for Raspbian.
+Launch the C-written daemon with *./c-codes/pvforecastd*. This has been compiled for *Raspbian*, and i should work in all Debian/Debian-like distributions.
 
 You can compile it within your environment with "gcc pvforecastd.c -o pvforecastd".
 
