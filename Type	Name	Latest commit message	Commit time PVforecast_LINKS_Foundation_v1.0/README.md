@@ -19,6 +19,10 @@ The following modules are required:
 
 # Release info
 
-This is version 0.2. 
+This is version 1.0. 
 
-The sunrise and sunset are automatically updated by the script, allowing to run it only during daytime.
+The sequence of operations is:
+1) Perform solar radiation forecast
+2) Send the forecast to MQTT broker in topic "SolarForecastTopic"
+3) Update sunrise/sunset in configuration file (if enabled)
+4) Sleep
