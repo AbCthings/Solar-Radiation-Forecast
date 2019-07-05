@@ -30,7 +30,7 @@ TILT = 0
 STEP = 60 # [seconds]
 FORECAST_HORIZON = 2 # [days] This value must be between 1 and 6 days
 # THINGSBOARD UPLOAD CREDENTIALS
-THINGSBOARD_HOST = '130.192.85.221'
+THINGSBOARD_HOST = 'localhost'
 BROKER_PORT = 1883
 
 '''
