@@ -2,9 +2,7 @@
 
 1) Modify *pvforecast.config* to fit your application.
 
-2) Launch the C-written daemon with *./c-codes/pvforecastd*. This has been compiled for *Raspbian*, and it should work in all Debian/Debian-like distributions.
-
-You can compile it within your environment with "gcc pvforecastd.c -o pvforecastd".
+2) Launch the C-written daemon with *./c-codes/pvforecastd*. This has been compiled for *Raspbian*, and it should work in all Debian/Debian-like distributions. You can compile it within your environment with "gcc pvforecastd.c -o pvforecastd".
 
 3) As an <b>alternative</b> you can directly launch the Python script to perform the forecast, giving the required parameters.
 
