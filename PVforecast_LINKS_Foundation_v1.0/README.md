@@ -1,4 +1,4 @@
-# Get started
+# Getting started
 
 1) Modify *pvforecast.config* to fit your application.
 
