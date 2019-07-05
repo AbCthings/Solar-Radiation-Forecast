@@ -29,7 +29,7 @@ TILT = 0
 # FORECAST HORIZON AND TIMESTEP
 STEP = 60 # [seconds]
 FORECAST_HORIZON = 2 # [days] This value must be between 1 and 6 days
-# THINGSBOARD UPLOAD CREDENTIALS
+# MQTT Broker
 THINGSBOARD_HOST = 'localhost'
 BROKER_PORT = 1883
 
